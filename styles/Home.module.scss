@@ -1,0 +1,50 @@
+$accent-text: #0d4961;
+$body-text: #402f1c;
+$mission-bg: #dde1d7;
+
+.titlecontainer {
+    .verticalcenter {
+        .logo {
+            width: 69%;
+        }
+        margin: auto;
+        padding-top: 20vh;
+        padding-bottom: 30vh;
+    }
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    text-align: center;
+    top: 50%;
+}
+.missioncontainer {
+    .mission {
+        .missionimage img {
+            max-width: 100%;
+            margin-inline: auto;
+            display: block;
+        }
+        .missioncontent {
+            h1 {
+                font-size: 69px;
+            }
+            p {
+                font-size: 22px;
+            }
+            text-align: center;
+            padding-inline: 2em;
+        }
+        margin: auto;
+        width: 80%;
+        display: flex;
+    }
+    background-color: $mission-bg !important;
+    padding-block: 5em;
+    margin: auto;
+}
+.missioncontainer div:nth-child(1) {
+    flex: 1;
+}
+.missioncontainer div:nth-child(2) {
+    flex: 2;
+}
