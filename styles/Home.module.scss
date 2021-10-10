@@ -1,6 +1,14 @@
 $accent-text: #0d4961;
 $body-text: #402f1c;
 $mission-bg: #dde1d7;
+$stats-bg: #d0ddbc;
+$splitvolunteer-bg: #d4bcdd;
+$splitword-bg: #f1d8fa;
+$donate-bg: #bdeafb;
+
+.description {
+    font-size: 32px;
+}
 
 .titlecontainer {
     .verticalcenter {
@@ -19,10 +27,15 @@ $mission-bg: #dde1d7;
 }
 .missioncontainer {
     .mission {
-        .missionimage img {
-            max-width: 100%;
-            margin-inline: auto;
-            display: block;
+        .missionimage {
+            img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                max-width: 100%;
+            }
+            position: relative;
         }
         .missioncontent {
             h1 {
@@ -31,6 +44,7 @@ $mission-bg: #dde1d7;
             p {
                 font-size: 22px;
             }
+            padding-block: 10em;
             text-align: center;
             padding-inline: 2em;
         }
@@ -39,7 +53,6 @@ $mission-bg: #dde1d7;
         display: flex;
     }
     background-color: $mission-bg !important;
-    padding-block: 5em;
     margin: auto;
 }
 .missioncontainer div:nth-child(1) {
@@ -47,4 +60,94 @@ $mission-bg: #dde1d7;
 }
 .missioncontainer div:nth-child(2) {
     flex: 2;
+}
+.statscontainer {
+    .stats {
+        .books {
+            p {
+                font-size: 2em;
+                text-align: center;
+            }
+            flex: 0.5;
+            font-size: 28px;
+            text-align: center;
+            margin-block: auto;
+        }
+        .smstatcontainer {
+            .volunteers {
+                p {
+                    font-size: 20px;
+                }
+                flex: 1;
+                padding-block: 0.3em;
+            }
+            .impact {
+                p {
+                    font-size: 20px;
+                }
+                flex: 1;
+                padding-block: 0.3em;
+            }
+            flex: 1;
+            text-align: center;
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+        }
+        padding-block: 5em;
+        display: flex;
+        margin: auto;
+        width: 80%;
+    }
+    background: $stats-bg;
+}
+.split {
+    .becomevolunteercontainer {
+        .becomevolunteer {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 20px;
+            }
+            text-align: center;
+            margin: auto;
+            width: 90%;
+        }
+        padding-block: 5em;
+        padding-inline: 1em;
+        background: $splitvolunteer-bg;
+    }
+    .spreadwordcontainer {
+        .spreadword {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 20px;
+            }
+            text-align: center;
+            margin: auto;
+            width: 90%;
+        }
+        padding-block: 5em;
+        padding-inline: 1em;
+        background: $splitword-bg;
+    }
+    display: flex;
+}
+.donatecontainer {
+    .donate {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 20px;
+        }
+        padding-block: 5em;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    background: $donate-bg;
 }
