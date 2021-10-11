@@ -61,6 +61,32 @@ $donate-bg: #bdeafb;
 .missioncontainer div:nth-child(2) {
     flex: 2;
 }
+    @media (max-width: 1400px) {
+        .mission {
+            .missionimage {
+                img {
+                    padding-top: 4em;
+                    position: static !important;
+                    display: flex;
+                    align-items: center; 
+                    justify-content: center; 
+                    flex-direction: column;
+                }
+                flex: 1;
+            }
+            .missioncontent {
+                padding-block: 4em !important;
+            }
+            flex-direction: column;
+        }
+
+        .stats {
+            flex-direction: column;
+        }
+        .split {
+            flex-direction: column;
+        }
+    }
 .statscontainer {
     .stats {
         .books {
