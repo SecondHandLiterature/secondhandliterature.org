@@ -1,5 +1,6 @@
 $accent-text: white;
 $body-text: #402f1c;
+$background: #e5c5ad;
 
 .mainnav {
 	.socials {
@@ -18,7 +19,7 @@ $body-text: #402f1c;
   font-size: 22px;
   font-weight: bold;
   color: $accent-text;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(20px);
   position: fixed;
   height: 74px;
@@ -30,7 +31,7 @@ $body-text: #402f1c;
   }
 }
 .mobilenav {
-	font-family:  'Times New Roman', Times, serif;
+	// font-family:  'Times New Roman', Times, serif;
 	display: none; 
 }
 @media (max-width: 830px) {
@@ -50,7 +51,7 @@ $body-text: #402f1c;
 			display: inline-block;
 		}
 		display: inline-block;
-    margin-top: -5px;
+    	margin-top: -5px;
 	}
 	div#special.link-txt {
 		margin-bottom: 0.7rem;
@@ -152,7 +153,7 @@ $body-text: #402f1c;
 	height: 100vh !important;
 	padding: 50px;
 	
-	background: #121212;
+	background: $background;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	
