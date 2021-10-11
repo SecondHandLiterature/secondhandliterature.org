@@ -1,5 +1,6 @@
 $accent-text: #0d4961;
 $body-text: #402f1c;
+$body-ff: 'Montserrat', sans-serif;
 
 .footer {
     color: $body-text;
@@ -15,6 +16,7 @@ $body-text: #402f1c;
   }
   @media (max-width: 500px) {
     .footer {
+      font-family: $body-ff;
       font-size: 12px;
     }
   }
