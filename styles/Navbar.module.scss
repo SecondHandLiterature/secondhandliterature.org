@@ -1,6 +1,7 @@
 $accent-text: white;
-$body-text: #402f1c;
-$background: #e5c5ad;
+$nav-bg: #402f1c;
+$background: #d3b695;
+// #e5c5ad
 
 .mainnav {
 	.socials {
@@ -9,8 +10,11 @@ $background: #e5c5ad;
 		}
 	}
   a {
-    padding-inline: 2em;
+    padding-inline: 4em;
   }
+  -webkit-transition: top 0.2s;
+  transition: top 0.2s;
+  z-index: 100;
   padding-block: 1em;
   display: flex;
   flex-direction: row;
@@ -19,8 +23,8 @@ $background: #e5c5ad;
   font-size: 22px;
   font-weight: bold;
   color: $accent-text;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(20px);
+  background-color: $nav-bg;
+//   backdrop-filter: blur(20px);
   position: fixed;
   height: 74px;
   width: 100%;
