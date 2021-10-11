@@ -1,14 +1,39 @@
 import Link from 'next/link'
-import { useState } from 'react'
 import navbar from '../styles/Navbar.module.scss'
+import { useState, useEffect } from "react"
+
+function useScroll() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+      function handleScroll() {
+          let currScrollPos = window.pageYOffset;
+          if (scrollPosition > currScrollPos) {
+              document.getElementById("main-nav").style.top = "0px";
+              // document.getElementsByClassName("nav-container")[0].style.top = "0px";
+          } else {
+              document.getElementById("main-nav").style.top = "-84.63px";
+              // document.getElementsByClassName("nav-container")[0].style.top = "-84.63px";
+          }
+          setScrollPosition(currScrollPos);
+      }
+
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      }
+  });
+}
 
 export default function Navbar({ }) {
+  useScroll();
+
   const [ checked, setChecked ] = useState(false);
 
   function toggle() { setChecked(!checked) }
 
     return <>
-    <nav className={navbar.mainnav}>
+    <nav id="main-nav" className={navbar.mainnav}>
       <Link className="main-link" href="/"><a>Home</a></Link>
       <Link className="main-link" href="/about"><a>About Us</a></Link>
       <Link className="main-link" href="/howitworks"><a>How it Works</a></Link>
