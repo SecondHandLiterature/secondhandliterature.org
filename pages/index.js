@@ -25,7 +25,7 @@ export default function Home() {
       <div className={home.mission}>
         {/* <div className={home.missionimage}><img src={getImg("/secondhandLogo.png")} /></div> */}
         <div className={home.missioncontent}>
-          <h1>Mission Statement</h1>
+          <h1>~ Mission Statement ~</h1>
           <p>We believe in a world where every child can read. Our mission is to invest in early childhood education in order to empower the next generation. Second Hand accomplishes this by accepting unused books from donors and redistributing them to those in underprivileged areas. By bringing old books to a new pair of hands, we hope to cultivate a strong culture of reading among the youth in our community</p>
         </div>
       </div>
@@ -39,11 +39,11 @@ export default function Home() {
         </div>
         <div className={home.smstatcontainer}>
           <div className={home.volunteers}>
-            <h2>Number of Volunteers</h2>
+            <h1>Number of Volunteers</h1>
             <p>0</p>
           </div>
           <div className={home.impact}>
-            <h2>Areas Impacted</h2>
+            <h1>Areas Impacted</h1>
             <p>Jamaica, Corona, Elmhurst, Jackson Heights, Rego Park, Flushing, Woodside</p>
           </div>
         </div>
@@ -63,14 +63,14 @@ export default function Home() {
         <div className={home.spreadword}>
           <h1>Spread the Word</h1>
           <p>As a young and still developing organization, we are always grateful to those who spread the word about us. Help us broaden our reach and raise awareness of the absence of reading materials in households across the city.</p>
-          <p><i className="fa fa-instagram" aria-hidden="true"></i><i className="fa fa-facebook" aria-hidden="true"></i></p>
+          <p className={home.icons}><i className="fa fa-instagram" aria-hidden="true"></i><i className="fa fa-facebook" aria-hidden="true"></i></p>
         </div>
       </section>
     </div>
 
     <section className={home.donatecontainer}>
       <div className={home.donate}>
-        <h1>Donate Old Books</h1>
+        <h1>~ Donate Old Books ~</h1>
         <p>Book donations are the backbone of our organization. If you choose to give your old and unused books to us, we guarantee that they will be used to improve educational access of young learners in your area.</p>
       </div>
     </section>
