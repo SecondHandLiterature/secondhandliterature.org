@@ -1,13 +1,15 @@
 $accent-text: #0d4961;
 $body-text: #402f1c;
-$mission-bg: #dde1d7;
+// $mission-bg: #dde1d7;
+$mission-bg: #a2c2cf;
 $stats-bg: #d0ddbc;
 $splitvolunteer-bg: #d4bcdd;
 $splitword-bg: #f1d8fa;
 $donate-bg: #bdeafb;
 
 .description {
-    font-size: 32px;
+    padding-top: 2em;
+    font-size: 38px;
 }
 
 .titlecontainer {
@@ -25,6 +27,20 @@ $donate-bg: #bdeafb;
     text-align: center;
     top: 50%;
 }
+// .missionbgimg {
+//     // position: fixed;
+//     left: 0;
+//     right: 0;
+//     // z-index: 1;
+//     width: 100%;
+//     height: 650px;
+//     display: block;
+//     background: url('/books.jpg');
+//     opacity: 0.2;
+//     filter: blur(5px);
+//     transform: translateY(90%);
+//     z-index: -1;
+// }
 .missioncontainer {
     .mission {
         .missionimage {
@@ -42,18 +58,22 @@ $donate-bg: #bdeafb;
                 font-size: 69px;
             }
             p {
+                padding-inline: 4em;
                 font-size: 22px;
             }
-            padding-block: 10em;
+            padding-block: 20em;
             text-align: center;
             padding-inline: 2em;
+            z-index: 1;
+            // color: white;
         }
         margin: auto;
         width: 80%;
         display: flex;
     }
-    background-color: $mission-bg !important;
     margin: auto;
+    // background: $mission-bg;
+    // border-bottom: black solid 2px;
 }
 .missioncontainer div:nth-child(1) {
     flex: 1;
@@ -61,6 +81,7 @@ $donate-bg: #bdeafb;
 .missioncontainer div:nth-child(2) {
     flex: 2;
 }
+
     @media (max-width: 1400px) {
         .mission {
             .missionimage {
@@ -87,6 +108,7 @@ $donate-bg: #bdeafb;
             flex-direction: column;
         }
     }
+
 .statscontainer {
     .stats {
         .books {
@@ -120,12 +142,13 @@ $donate-bg: #bdeafb;
             display: flex;
             flex-direction: column;
         }
-        padding-block: 5em;
+        padding-block: 10em;
         display: flex;
         margin: auto;
         width: 80%;
     }
     background: $stats-bg;
+    // border-bottom: black solid 2px;
 }
 .split {
     .becomevolunteercontainer {
@@ -140,9 +163,10 @@ $donate-bg: #bdeafb;
             margin: auto;
             width: 90%;
         }
-        padding-block: 5em;
+        padding-block: 10em;
         padding-inline: 1em;
-        background: $splitvolunteer-bg;
+        background: $stats-bg;
+        // background: $splitvolunteer-bg;
     }
     .spreadwordcontainer {
         .spreadword {
@@ -156,11 +180,13 @@ $donate-bg: #bdeafb;
             margin: auto;
             width: 90%;
         }
-        padding-block: 5em;
+        padding-block: 10em;
         padding-inline: 1em;
-        background: $splitword-bg;
+        background: $stats-bg;
+        // background: $splitword-bg;
     }
     display: flex;
+    // border-bottom: black solid 2px;
 }
 .donatecontainer {
     .donate {
@@ -170,10 +196,10 @@ $donate-bg: #bdeafb;
         p {
             font-size: 20px;
         }
-        padding-block: 5em;
+        padding-block: 10em;
         text-align: center;
         width: 80%;
         margin: auto;
     }
-    background: $donate-bg;
+    // background: $donate-bg;
 }
