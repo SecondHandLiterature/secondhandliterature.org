@@ -55,7 +55,7 @@ export default function Home() {
         <div className={home.becomevolunteer}>
           <h1>Become a Volunteer</h1>
           <p>You can get involved today by becoming a volunteer. Sign up and you will be joining a group of young change-makers looking to create a positive impact in their communities. Volunteer hours are also available to those who join our team.</p>
-          <button>Volunteer</button>
+          <button className={home.button}>Volunteer</button>
         </div>
       </section>
 
