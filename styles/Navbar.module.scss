@@ -1,6 +1,6 @@
 $accent-text: white;
 $nav-bg: #402f1c;
-$background: #f1dbcb;
+$background: #f3e6dd;
 // $background: #d3b695;
 // #e5c5ad
 
@@ -21,18 +21,18 @@ $background: #f1dbcb;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: bold;
   color: $accent-text;
   background-color: $nav-bg;
 //   backdrop-filter: blur(20px);
   position: fixed;
-  height: 74px;
+  height: 50px;
   width: 100%;
 }
 @media (max-width: 1100px) {
   .mainnav {
-    font-size: 17px;
+    font-size: 10px;
   }
 }
 .mobilenav {
@@ -113,7 +113,7 @@ $background: #f1dbcb;
 	margin-bottom: 5px;
 	position: relative;
 	
-	background: #ffffff;
+	background: #000000;
 	border-radius: 3px;
 	
 	z-index: 1;
