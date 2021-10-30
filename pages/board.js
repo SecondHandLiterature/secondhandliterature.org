@@ -33,7 +33,7 @@ export default function Board() {
             truth about his cousin&apos;s death (9/10, would recommend!){" "}
           </p>
         </div>
-        <div>
+        <div className={board.special}>
           <h2>Joshua Lau</h2>
           <img src={getImg("/josh.png")} />
           <p>
