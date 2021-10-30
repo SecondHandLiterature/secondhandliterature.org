@@ -1,7 +1,7 @@
 .header {
     color: #402f1c;
-    padding-top: 1em;
-    font-size: 32px;
+    padding-top: 2em;
+    font-size: 22px;
     text-align: center;
 }
 .hr {
@@ -18,11 +18,17 @@
         padding-inline: 8em;
     }
     h2 {
-        font-size: 52px;
+        font-size: 32px;
     }
     p {
-        line-height: 50px;
-        font-size: 32px;
+        line-height: 36px;
+        font-size: 24px;
+    }
+    .special {
+        p {
+            line-height: 38px;
+        }
+        line-height: 46px;
     }
     align-items: center;
     justify-content: center;
@@ -35,11 +41,11 @@
             border-radius: 100%;
         }
         h2 {
-            font-size: 48px;
+            font-size: 32px;
         }
         p {
             padding-inline: 4em;
-            font-size: 28px;
+            font-size: 22px;
         }
         align-items: center;
         display: inline-flex;
