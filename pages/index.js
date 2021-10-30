@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import home from '../styles/Home.module.scss'
@@ -17,7 +18,7 @@ export default function Home() {
         <img className={home.logo} src={getImg("/secondhandLogo.png")} />
         <div className={home.descriptioncontainer}>
           <p className={home.description}>We are a student-led nonprofit organization aiming to address the lack of books in underprivileged communities by hosting book donations and drives.</p>
-          <a href="/howitworks"><button className={home.button}>Donate</button></a>
+          <Link href="/howitworks"><button className={home.button}>Donate</button></Link>
         </div>
       </div>
     </section>
@@ -65,7 +66,7 @@ export default function Home() {
         <div className={home.spreadword}>
           <h1>Spread the Word</h1>
           <p>As a young and still developing organization, we are always grateful to those who spread the word about us. Help us broaden our reach and raise awareness of the absence of reading materials in households across the city.</p>
-          <p className={home.icons}><a href="https://www.instagram.com/secondhandliterature/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a><i className="fa fa-facebook" aria-hidden="true"></i></p>
+          <p className={home.icons}><a href="https://www.instagram.com/secondhandliterature/" target="_blank" rel="noreferrer"><i className="fa fa-instagram" aria-hidden="true"></i></a><i className="fa fa-facebook" aria-hidden="true"></i></p>
         </div>
       </section>
     </div>
