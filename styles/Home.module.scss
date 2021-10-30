@@ -64,14 +64,14 @@ $body-ff: 'Montserrat', sans-serif;
         }
         .missioncontent {
             h1 {
-                font-family: $header-ff;
-                font-size: 64px;
+                // font-family: $header-ff;
+                font-size: 44px;
             }
             p {
                 font-family: $body-ff;
-                line-height: 4rem;
+                line-height: 2.5rem;
                 padding-inline: 4em;
-                font-size: 28px;
+                font-size: 24px;
             }
             margin: auto;
             text-align: center;
@@ -102,19 +102,19 @@ $body-ff: 'Montserrat', sans-serif;
             }
             p {
                 font-family: $body-ff;
-                font-size: 60px;
+                font-size: 50px;
                 text-align: center;
             }
             font-family: $header-ff;
             flex: 0.5;
-            font-size: 36px;
+            font-size: 32px;
             text-align: center;
             margin-block: auto;
         }
         .smstatcontainer {
             .volunteers {
                 p {
-                    font-family: $body-ff;
+                    // font-family: $body-ff;
                     font-size: 50px;
                 }
                 flex: 1;
@@ -123,17 +123,17 @@ $body-ff: 'Montserrat', sans-serif;
             .impact {
                 p {
                     font-family: $body-ff;
-                    font-size: 32px;
+                    font-size: 26px;
                 }
                 flex: 1;
                 padding-block: 0.3em;
             }
             // border-left: $body-text 5px solid;
-            border-left: rgba(0, 0, 0, 0.25) 5px solid;
+            border-left: rgba(0, 0, 0, 0.25) 3px solid;
             font-family: $header-ff;
             flex: 1;
             text-align: center;
-            font-size: 36px;
+            font-size: 28px;
             display: flex;
             flex-direction: column;
         }
@@ -143,7 +143,7 @@ $body-ff: 'Montserrat', sans-serif;
         margin: auto;
         width: 100%;
         height: 100vh;
-        background: rgba($color: $background, $alpha: 0.75);
+        background: rgba($color: $background, $alpha: 0.8);
         // filter: blur();
     }
     height: 100vh;
@@ -151,18 +151,18 @@ $body-ff: 'Montserrat', sans-serif;
     background-size: cover;
     // filter: blur(10px);
     // background: $stats-bg;
-    border-bottom: black solid 5px;
+    border-bottom: black solid 2px;
 }
 .split {
     .becomevolunteercontainer {
         .becomevolunteer {
             h1 {
-                font-family: $header-ff;
-                font-size: 46px;
+                // font-family: $header-ff;
+                font-size: 40px;
             }
             p {
-                font-family: $body-ff;
-                font-size: 30px;
+                // font-family: $body-ff;
+                font-size: 24px;
             }
             text-align: center;
             margin: auto;
@@ -180,12 +180,12 @@ $body-ff: 'Montserrat', sans-serif;
                 padding-inline: 2em;
             }
             h1 {
-                font-family: $header-ff;
-                font-size: 46px;
+                // font-family: $header-ff;
+                font-size: 40px;
             }
             p {
-                font-family: $body-ff;
-                font-size: 30px;
+                // font-family: $body-ff;
+                font-size: 24px;
             }
             text-align: center;
             margin: auto;
@@ -206,12 +206,12 @@ $body-ff: 'Montserrat', sans-serif;
 .donatecontainer {
     .donate {
         h1 {
-            font-family: $header-ff;
-            font-size: 42px;
+            // font-family: $header-ff;
+            font-size: 40px;
         }
         p {
-            font-family: $body-ff;
-            font-size: 26px;
+            // font-family: $body-ff;
+            font-size: 24px;
         }
         padding-block: 10em;
         text-align: center;
