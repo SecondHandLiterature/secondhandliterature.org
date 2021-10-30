@@ -1,14 +1,44 @@
-// html {
-//     background-color: red;
-// }
 .top {
+    .content {
+        h1 {
+            font-size: 38px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 36px;
+        }
+        padding-top: 2em;
+        padding-left: 9em;
+        padding-bottom: 6em;
+        width: 85%;
+        margin: auto;
+    }
+    .img {
+        margin: auto;
+        height: 50%;
+        width: 30%;
+        border-radius: 100%;
+        padding-inline: 2em;
+    }
+    display: flex;
     background: #f3e6dd;
     padding-top: 4em;
 }
 .bottom {
     .content {
+        h1 {
+            font-size: 38px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 36px;
+            padding-bottom: 4em;
+        }
+        padding-block: 6em;
         width: 85%;
         margin: auto;
     }
-    border-top: 2px solid black;
+}
+.hr {
+    border: solid black 1px;
 }
