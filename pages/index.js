@@ -17,7 +17,7 @@ export default function Home() {
         <img className={home.logo} src={getImg("/secondhandLogo.png")} />
         <div className={home.descriptioncontainer}>
           <p className={home.description}>We are a student-led nonprofit organization aiming to address the lack of books in underprivileged communities by hosting book donations and drives.</p>
-          <button className={home.button}>Donate</button>
+          <a href="/howitworks"><button className={home.button}>Donate</button></a>
         </div>
       </div>
     </section>
@@ -57,7 +57,7 @@ export default function Home() {
         <div className={home.becomevolunteer}>
           <h1>Become a Volunteer</h1>
           <p>You can get involved today by becoming a volunteer. Sign up and you will be joining a group of young change-makers looking to create a positive impact in their communities. Volunteer hours are also available to those who join our team.</p>
-          <button className={home.button}>Volunteer</button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5puSL7NNypkivN0DuqSJ0SmSgD7iKglokX4pTsvKsCBlE_A/viewform?usp=sf_link"><button className={home.button}>Volunteer</button></a>
         </div>
       </section>
 
@@ -65,7 +65,7 @@ export default function Home() {
         <div className={home.spreadword}>
           <h1>Spread the Word</h1>
           <p>As a young and still developing organization, we are always grateful to those who spread the word about us. Help us broaden our reach and raise awareness of the absence of reading materials in households across the city.</p>
-          <p className={home.icons}><i className="fa fa-instagram" aria-hidden="true"></i><i className="fa fa-facebook" aria-hidden="true"></i></p>
+          <p className={home.icons}><a href="https://www.instagram.com/secondhandliterature/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a><i className="fa fa-facebook" aria-hidden="true"></i></p>
         </div>
       </section>
     </div>
