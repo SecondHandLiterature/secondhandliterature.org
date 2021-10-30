@@ -152,7 +152,7 @@ export default function Board() {
             to music, and playing video games. I also enjoy reading of course!
             As the webmaster, I&apos;m in charge of designing and running the Second
             Hand website! My favorite book of all time is A Wrinkle in Time by
-            Madeleine L'Engle. Reading expands your imagination, and it&apos;s always
+            Madeleine L&apos;Engle. Reading expands your imagination, and it&apos;s always
             fun slipping into a fantasy world and being immersed in a story.
           </p>
           <div className={board.member}>
