@@ -3,6 +3,10 @@ $body-text: #402f1c;
 $body-ff: 'Montserrat', sans-serif;
 
 .footer {
+    a {
+      color: rgb(0, 0, 131);
+      text-decoration: underline;
+    }
     color: $body-text;
     position: absolute;
     bottom: 0;
