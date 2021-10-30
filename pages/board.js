@@ -92,7 +92,7 @@ export default function Board() {
         <div>
           <div className={board.member}>
             <h2>Shafiul Haque</h2>
-            <img src={getImg("/Shafiul.jpg")} />
+            <img src={getImg("/shafiul.jpg")} />
             <p>Outreach Director</p>
           </div>
           <p>
