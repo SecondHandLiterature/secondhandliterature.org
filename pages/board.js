@@ -22,23 +22,23 @@ export default function Board() {
           <img src={getImg("/taeeGOOD.jpg")} />
           <p>
             Hey everyone! My name is Taee, and I'm a junior currently attending
-            Stuyvesant High School. I’m from Flushing, Queens, and I co-founded
+            Stuyvesant High School. I'm from Flushing, Queens, and I co-founded
             Second Hand as a way of sharing my love for reading with others in
             my community. I am so excited to work with my talented board members
             to achieve this goal, and I hope you can help us too by donating a
-            book! If you couldn’t tell already, I like to read in my free time,
+            book! If you couldn't tell already, I like to read in my free time,
             but I also enjoy playing handball (American, not European) and
-            watching movies. The most recent book I’ve read is Patron Saints of
+            watching movies. The most recent book I've read is Patron Saints of
             Nothing, which is about a Filipino-American teenager uncovering the
-            truth about his cousin’s death (9/10, would recommend!){" "}
+            truth about his cousin's death (9/10, would recommend!){" "}
           </p>
         </div>
         <div>
           <h2>Joshua Lau</h2>
           <img src={getImg("/josh.png")} />
           <p>
-            Hello everyone, my name is Joshua and I’m a junior at Townsend
-            Harris High School. When I’m not in school, I spend most of my time
+            Hello everyone, my name is Joshua and I'm a junior at Townsend
+            Harris High School. When I'm not in school, I spend most of my time
             listening to music, and well, reading. I feel that co-founding
             Second Hand has allowed me to take my passion for books and elevate
             it to something of greater importance. A book that reminds me of my
@@ -62,20 +62,20 @@ export default function Board() {
             <p>Social Media Director</p>
           </div>
           <p>
-            Hey everyone! I’m Christina, currently a junior at Stuyvesant High
+            Hey everyone! I'm Christina, currently a junior at Stuyvesant High
             School. I am so excited to be part of Second Hand as a social media
             director. I believe that this organization has great potential, and
             I am looking forward to working with everyone! I recently finished
             reading Interior Chinatown, a teleplay that points out the
-            stereotypes in our society as well as what defines one’s identity.
+            stereotypes in our society as well as what defines one's identity.
             In my free time, I love to dance, binge watch Cdramas, hang out with
             friends, and try out new things.
           </p>
         </div>
         <div>
           <p>
-            Hey guys! I’m Rishima, and I’m a junior at Townsend Harris High
-            School. I’m super excited to be a Social Media Director for Second
+            Hey guys! I'm Rishima, and I'm a junior at Townsend Harris High
+            School. I'm super excited to be a Social Media Director for Second
             Hand, and I am so honored to have been given this opportunity to
             help others strengthen their connection to reading and find not just
             a home but a community in literature. In my down time, I like to
@@ -96,14 +96,14 @@ export default function Board() {
             <p>Outreach Director</p>
           </div>
           <p>
-            Hello everyone! My name is Shafiul Haque and I’m a junior at
+            Hello everyone! My name is Shafiul Haque and I'm a junior at
             Stuyvesant High School. Some of my hobbies include reading, playing
-            sports, and biking. As the outreach director of Second Hand, I’ll be
+            sports, and biking. As the outreach director of Second Hand, I'll be
             responsible for keeping in touch with our recipient locations and
             partner organizations. I am very excited to be a part of Second Hand
             because I believe that our community will benefit tremendously from
             the outpour of books. Personally, I love reading fantasy and
-            adventure books, and I’m currently reading the City of Fallen
+            adventure books, and I'm currently reading the City of Fallen
             Angels, the fourth book in the Mortal Instrument series. The book is
             about a girl who discovers her own heritage and her family history
             in the world of magic.{" "}
@@ -111,8 +111,8 @@ export default function Board() {
         </div>
         <div>
           <p>
-            Hey everyone! My name’s Darian and I’m a junior at Townsend Harris
-            High School. As Second Hand’s volunteer coordinator, I am excited to
+            Hey everyone! My name's Darian and I'm a junior at Townsend Harris
+            High School. As Second Hand's volunteer coordinator, I am excited to
             work with all of you and use my passion for volunteering to bring
             books to those who need them. In my free time I enjoy playing music
             and cubing. My favorite book of all time would have to be Prisoner
@@ -145,14 +145,14 @@ export default function Board() {
         </div>
         <div>
           <p>
-            Hello everyone! My name is Shafiul Haque and I’m a junior at
+            Hello everyone! My name is Shafiul Haque and I'm a junior at
             Stuyvesant High School. Some of my hobbies include reading, playing
-            sports, and biking. As the outreach director of Second Hand, I’ll be
+            sports, and biking. As the outreach director of Second Hand, I'll be
             responsible for keeping in touch with our recipient locations and
             partner organizations. I am very excited to be a part of Second Hand
             because I believe that our community will benefit tremendously from
             the outpour of books. Personally, I love reading fantasy and
-            adventure books, and I’m currently reading the City of Fallen
+            adventure books, and I'm currently reading the City of Fallen
             Angels, the fourth book in the Mortal Instrument series. The book is
             about a girl who discovers her own heritage and her family history
             in the world of magic.{" "}
