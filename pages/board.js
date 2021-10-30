@@ -40,7 +40,6 @@ export default function Board() {
                 </div>
                 <p>Hey everyone! I’m Christina, currently a junior at Stuyvesant High School. I am so excited to be part of Second Hand as a social media director. I believe that this organization has great potential, and I am looking forward to working with everyone! I recently finished reading Interior Chinatown, a teleplay that points out the stereotypes in our society as well as what defines one’s identity. In my free time, I love to dance, binge watch Cdramas, hang out with friends, and try out new things.</p>
             </div>
-            <hr className={board.hr}></hr> 
             <div>
                 <p>Hey guys! I’m Rishima, and I’m a junior at Townsend Harris High School. I’m super excited to be a Social Media Director for Second Hand, and I am so honored to have been given this opportunity to help others strengthen their connection to reading and find not just a home but a community in literature. In my down time, I like to read (obviously!), go out with my friends, and cook new things. I recently read Lord of the Flies and would definitely recommend it if you are looking for a thought-provoking classic.</p>
                 <div className={board.member}>
