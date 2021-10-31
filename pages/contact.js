@@ -20,7 +20,7 @@ export default function Contact() {
       <section className={contact.formcontainer}>
         <iframe
           className={contact.form}
-          src="https://docs.google.com/forms/d/e/1FAIpQLSc5puSL7NNypkivN0DuqSJ0SmSgD7iKglokX4pTsvKsCBlE_A/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeFkHFEWvmdmxcM7D8pMcP0ItRCacOdO8LSYaxPsbg5SVw6Jg/viewform?embedded=true"
         >
           Loading…
         </iframe>
