@@ -56,11 +56,10 @@ export default function Navbar({ }) {
             <Link className="main-link" passHref href="/about"><li><a onClick={toggle}>About Us</a></li></Link>
             <Link className="main-link" passHref href="/howitworks"><li><a onClick={toggle}>How it Works</a></li></Link>
             <Link className="main-link" passHref href="/board"><li><a onClick={toggle}>Meet the Board</a></li></Link>
-            <Link className="main-link" passHref href="/"><li><a onClick={toggle}>Contact</a></li></Link>
+            <Link className="main-link" passHref href="/contact"><li><a onClick={toggle}>Contact</a></li></Link>
             <li className={navbar.socials}>
               <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fa fa-instagram" aria-hidden="true"></i></a>
               <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa fa-twitter" aria-hidden="true"></i></a>
               </li>
           </ul>
       </div>
