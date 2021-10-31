@@ -33,7 +33,7 @@ export default function HowItWorks() {
         that we can properly monitor and prepare for large donations.
         <iframe
           className={how.form}
-          src="https://docs.google.com/forms/d/e/1FAIpQLSc5puSL7NNypkivN0DuqSJ0SmSgD7iKglokX4pTsvKsCBlE_A/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe2sCiGBl5SFWAYyV6pMcFs3g5CAYTuBYCPQfGsXs9ZA3Ox3w/viewform?embedded=true"
         >
           Loading…
         </iframe>
