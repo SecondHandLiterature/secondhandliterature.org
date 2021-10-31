@@ -19,7 +19,7 @@ export default function HowItWorks() {
         {/* <h1> Drop off Center and Recipients</h1> */}
         <iframe
           className={how.map}
-          src="https://www.google.com/maps/d/embed?mid=1cVP_jnPGCTeuH24QsYhMGzRuOvH3gdnB&hl=en"
+          src="https://www.google.com/maps/d/embed?mid=1cVP_jnPGCTeuH24QsYhMGzRuOvH3gdnB"
         ></iframe>
       </section>
 
@@ -74,7 +74,7 @@ export default function HowItWorks() {
       <hr className={how.hr}></hr>
       <section className={how.list}>
         <span className={how.numbers}>4.</span> We will get in contact with our
-        many recipient locations (which are shown on the google maps at the top
+        many recipient locations (which will be shown on the google maps at the top
         of this page) and pick out a select number of books for each location
         based on their desired number of books and preferred genres.
       </section>
