@@ -21,7 +21,7 @@ export default function Board() {
           <h2>Taee Chi</h2>
           <img src={getImg("/taeeGOOD.jpg")} />
           <p>
-            Hey everyone! My name is Taee, and I&apos;m a junior currently
+            My name is Taee, and I&apos;m a junior currently
             attending Stuyvesant High School. I&apos;m from Flushing, Queens,
             and I co-founded Second Hand as a way of sharing my love for reading
             with others in my community. I am so excited to work with my
@@ -38,7 +38,7 @@ export default function Board() {
           <h2>Joshua Lau</h2>
           <img src={getImg("/josh.png")} />
           <p>
-            Hello everyone, my name is Joshua and I&apos;m a junior at Townsend
+            My name is Joshua and I&apos;m a junior at Townsend
             Harris High School. When I&apos;m not in school, I spend most of my
             time listening to music, and well, reading. I feel that co-founding
             Second Hand has allowed me to take my passion for books and elevate
@@ -63,7 +63,7 @@ export default function Board() {
             <p>Social Media Director</p>
           </div>
           <p>
-            Hey everyone! I&apos;m Christina, currently a junior at Stuyvesant
+            I&apos;m Christina, currently a junior at Stuyvesant
             High School. I am so excited to be part of Second Hand as a social
             media director. I believe that this organization has great
             potential, and I am looking forward to working with everyone! I
@@ -75,7 +75,7 @@ export default function Board() {
         </div>
         <div>
           <p>
-            Hey guys! I&apos;m Rishima, and I&apos;m a junior at Townsend Harris
+            I&apos;m Rishima, and I&apos;m a junior at Townsend Harris
             High School. I&apos;m super excited to be a Social Media Director
             for Second Hand, and I am so honored to have been given this
             opportunity to help others strengthen their connection to reading
@@ -97,7 +97,7 @@ export default function Board() {
             <p>Outreach Director</p>
           </div>
           <p>
-            Hello everyone! My name is Shafiul Haque and I&apos;m a junior at
+            My name is Shafiul Haque and I&apos;m a junior at
             Stuyvesant High School. Some of my hobbies include reading, playing
             sports, and biking. As the outreach director of Second Hand,
             I&apos;ll be responsible for keeping in touch with our recipient
@@ -112,7 +112,7 @@ export default function Board() {
         </div>
         <div>
           <p>
-            Hey everyone! My name&apos;s Darian and I&apos;m a junior at
+            My name&apos;s Darian and I&apos;m a junior at
             Townsend Harris High School. As Second Hand&apos;s volunteer
             coordinator, I am excited to work with all of you and use my passion
             for volunteering to bring books to those who need them. In my free
@@ -134,7 +134,7 @@ export default function Board() {
             <p>Secretary</p>
           </div>
           <p>
-            Hello! My name is Claire Grumbacher. I am a sophomore at Francis
+            My name is Claire Grumbacher. I am a sophomore at Francis
             Lewis High School in Queens, New York. To me, the idea of learning
             something on your own is absolutely incredible and books are the
             perfect tool to access that very skill. In my free time, I (of
@@ -147,7 +147,7 @@ export default function Board() {
         </div>
         <div>
           <p>
-            Hey, I&apos;m Paul Serbanescu, and I&apos;m a junior at Stuyvesant High
+            I&apos;m Paul Serbanescu, and I&apos;m a junior at Stuyvesant High
             School. I really enjoy coding and working on cs projects, listening
             to music, and playing video games. I also enjoy reading of course!
             As the webmaster, I&apos;m in charge of designing and running the Second
