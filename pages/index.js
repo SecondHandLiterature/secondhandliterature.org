@@ -20,7 +20,9 @@ export default function Home() {
           <p className={home.description}>We are a student-led nonprofit organization aiming to address the lack of books in underprivileged communities by hosting book donations and drives.</p>
           <Link href="/howitworks"><button className={home.button}>Donate</button></Link>
         </div>
+        {/* <hr /> */}
       </div>
+      <hr />
     </section>
 
     <div className={home.missionbgimg}></div>
@@ -38,7 +40,7 @@ export default function Home() {
       <div className={home.stats}>
         <div className={home.books}>
           <h1>Books Donated</h1>
-          <p>20</p>
+          <p>0</p>
         </div>
         <div className={home.smstatcontainer}>
           <div className={home.volunteers}>
@@ -47,7 +49,7 @@ export default function Home() {
           </div>
           <div className={home.impact}>
             <h1>Areas Impacted</h1>
-            <p>Jamaica, Corona, Elmhurst, Jackson Heights, Rego Park, Flushing, Woodside</p>
+            <p>Aiming to Impact:<br /><br /> Jamaica, Corona, Elmhurst, Jackson Heights, Rego Park, Flushing, Woodside</p>
           </div>
         </div>
       </div>
