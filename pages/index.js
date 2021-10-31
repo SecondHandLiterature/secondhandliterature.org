@@ -31,7 +31,7 @@ export default function Home() {
         {/* <div className={home.missionimage}><img src={getImg("/secondhandLogo.png")} /></div> */}
         <div className={home.missioncontent}>
           <h1>~ Mission Statement ~</h1>
-          <p>We believe in a world where every child can read. Our mission is to invest in early childhood education in order to empower the next generation. Second Hand accomplishes this by accepting unused books from donors and redistributing them to those in underprivileged areas. By bringing old books to a new pair of hands, we hope to cultivate a strong culture of reading among the youth in our community</p>
+          <p>We believe in a world where every child can read. Our mission is to invest in early childhood education in order to empower the next generation. Second Hand accomplishes this by accepting unused books from donors and redistributing them to those in underprivileged areas. By bringing old books to a new pair of hands, we hope to cultivate a strong culture of reading among the youth in our community.</p>
         </div>
       </div>
     </section>
